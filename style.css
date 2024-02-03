@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+
+header{
+    width: 100%;
+    background-color: #D90416;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    gap: 20px;
+}
+header ul a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+.tam-reduzido{
+    width: 80%;
+    margin: 0 auto;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.destaque{
+    display: flex;
+    align-items: center;
+    /* border: #D90416 solid 2px; */
+    justify-content: space-around;
+}
+
+.titulos{
+    height: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    color: white;
+    margin: 10px 0;
+    background-image: url('img/Thor-Ragnarok-1.jpg');
+}
+
+.destaque figure{
+    width: calc(100%/3.05);
+}
+.destaque img{
+    width: 100%;
+}
+.destaque figure::after{
+    content: "Propriedade da Marvel™";
+    background-color: #D90416;
+    color: white;
+    display: block;
+    padding: 5px;
+    text-align: center;
+}
+
+.tam-reduzido p{
+    text-align: left;
+}
+
+.texto-fase4, .tam-reduzido a{
+    padding: 10px;
+    line-height: 25px;
+}
+
+
+.tam-reduzido li a::before{
+    content: url(img/link.png);
+    width: 20px;
+    height: 20px;
+    margin: 0 8px 0 0;
+}
+
+footer{
+    width: 100%;
+    background-color: #D90416;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+
+
+
+
